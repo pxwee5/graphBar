@@ -1,0 +1,52 @@
+.c-graph {
+  width: 300px;
+  height: 300px;
+  background: blue;
+  background: repeating-linear-gradient(
+    to top,
+    #ddd,
+    #ddd 1px,
+    rgba(0,0,0,0) 1px,
+    rgba(0,0,0,0) 25%
+  );
+  border-spacing: 0px;
+}
+
+  .c-graph__row {
+    height: 100%;
+    float: left;
+    vertical-align: bottom;
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  .c-graph__col {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .c-graph__title {
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    transform: translateY(100%);
+  }
+
+  .c-graph__bar {
+
+    margin: 0px 5px;
+    background-color: #aaa;
+    transition: 0.5s;
+  }
+
+  .c-graph__bar:hover {
+    background-color: #888;
+  }
+
+.c-input__txt {
+  width: 1rem;
+  display: inline-block;
+  margin-right: 1rem;
+}

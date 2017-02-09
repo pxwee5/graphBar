@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Graph Component</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <table class="c-graph">
+      <tr class="c-graph__row">
+        <td class="c-graph__col c-graph__bar" name="sun" style="height: 10%"></td>
+        <td class="c-graph__col c-graph__title">S</td>
+      </tr>
+      <tr class="c-graph__row">
+        <td class="c-graph__col c-graph__title">M</td>
+        <td class="c-graph__col c-graph__bar" name="mon" style="height: 15%"></td>
+      </tr>
+      <tr class="c-graph__row">
+        <td class="c-graph__col c-graph__title">T</td>
+        <td class="c-graph__col c-graph__bar" name="tue" style="height: 20%"></td>
+      </tr>
+      <tr class="c-graph__row">
+        <td class="c-graph__col c-graph__title">W</td>
+        <td class="c-graph__col c-graph__bar" name="wed" style="height: 25%"></td>
+      </tr>
+      <tr class="c-graph__row">
+        <td class="c-graph__col c-graph__title">T</td>
+        <td class="c-graph__col c-graph__bar" name="thu" style="height: 99%"></td>
+      </tr>
+    </table>
+
+    <section style="margin-top: 5rem">
+        <div><span class="c-input__txt">S</span><input type="text" class="c-input__field" name="sun" value="20"></div>
+        <div><span class="c-input__txt">M</span><input type="text" class="c-input__field" name="mon" value="40"></div>
+        <div><span class="c-input__txt">T</span><input type="text" class="c-input__field" name="tue" value="60"></div>
+        <div><span class="c-input__txt">W</span><input type="text" class="c-input__field" name="wed" value="80"></div>
+        <div><span class="c-input__txt">T</span><input type="text" class="c-input__field" name="thu" value="100"></div>
+        <input type="submit" class="c-input__submit" value="Submit">
+    </section>
+
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
